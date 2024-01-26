@@ -1,18 +1,20 @@
 import React from 'react'
-import Navbar from './components/Navbar'
-import Hero from './components/Hero'
-import HeadlineCard from './components/HeadlineCard'
-import Food from './components/Food'
-import Category from './components/Category'
+import Nabvar from './components/Navbar/Navbar'
+import Hero from './components/Hero/Hero'
+import Find from './components/find/Find'
+import Driver from './components/driver/Driver'
+import Luxury from './components/luxury/Luxury'
+import Footer from './components/footer/Footer'
 
 const App = () => {
   return (
     <div>
-      <Navbar />
+      <Nabvar />
       <Hero />
-      <HeadlineCard />
-      <Food />
-      <Category />
+      <Find />
+      <Driver />
+      <Luxury />
+      <Footer />
     </div>
   )
 }

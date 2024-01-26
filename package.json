@@ -1,6 +1,6 @@
 {
-  "homepage": "https://Abdul100-han.github.io/react-meal-app",
-  "name": "react-meal-app",
+  "homepage": "https://Abdul100-han.github.io/react-car-website",
+  "name": "react-car-website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -14,6 +14,7 @@
     "react-google-button": "^0.7.2",
     "react-icons": "^5.0.1",
     "react-scripts": "5.0.1",
+    "swiper": "^11.0.5",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
