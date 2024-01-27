@@ -1,19 +1,17 @@
 import React from 'react'
-import Navbar from './components/Navbar'
-import Hero from './components/Hero'
-import About from './components/About'
-import Developers from './components/Developers'
-import Subscribe from './components/Subscribe'
-import Footer from './components/Footer'
+import Hero from './components/hero/Hero'
+import Navbar from './components/Navbar/Navbar'
+import Data from './components/data/Data'
+import Cloud from './components/cloud/Cloud'
+import Footer from './components/footer/Footer'
 
 const App = () => {
   return (
     <div>
-      <Navbar />
+       <Navbar />
       <Hero />
-      <About />
-      <Developers />
-      <Subscribe />
+      <Data />
+      <Cloud />
       <Footer />
     </div>
   )
